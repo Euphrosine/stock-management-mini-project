@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+    }
+    body {
+      font-size: 120%;
+      background: #F8F8FF;
+    }
+    .row {
+      display: flex;
+      
+    }
+    
+    /* Create two equal columns that sits next to each other */
+    .column1 {
+      flex: 5px;
+      padding: 10px;
+      height: 615px; /* Should be removed. Only for demonstration */
+      background-color: black;
+    }
+    .column2 {
+      flex: 50%;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+    
+    .header {
+      width: 100%;
+      color: white;
+      background: #5F9EA0;
+      text-align: center;
+      border: 1px solid #B0C4DE;
+      border-bottom: none;
+      padding: 10px;
+    } 
